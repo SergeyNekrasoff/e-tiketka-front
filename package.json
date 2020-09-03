@@ -1,0 +1,31 @@
+{
+  "name": "e-tiketka-front",
+  "version": "1.0.0",
+  "description": "e-commerce",
+  "author": "Sergey Nekrasov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nuxt": "^2.14.4",
+    "swiper": "^6.1.2",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-star-rating": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "nuxt-svg": "^0.1.6",
+    "nuxt-svg-loader": "^1.2.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^10.0.1"
+  }
+}
